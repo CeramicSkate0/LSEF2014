@@ -1,10 +1,7 @@
 <?php
-
 require 'internal/slag.php';
-
 $t = new Slag(); // Create new template object
 $t->title('Peugeot Center'); // Set the title of the page
-
 ?>
 <style>
 	#blurb {
@@ -24,18 +21,15 @@ $t->title('Peugeot Center'); // Set the title of the page
     font-size: 1.5em;	
     }
 	@media (max-width: 40em) {
-
 	#blurb {
 		width: 100%;
 		font-size: 1.5em;
 	}
-
     #blurb h1 
     {
     font-size: 1.5em;	
     }
 	@media (max-width: 30em) {
-
 	#blurb {
 		border-radius: 0;
 		height: auto;
@@ -50,9 +44,7 @@ $t->title('Peugeot Center'); // Set the title of the page
 	}
 </style>
 <?php
-
 $t->scrapeMeta();
-
 ?>
 <div id="blurb">
 <h1>Who are we?</h1>
@@ -66,6 +58,9 @@ Peugeot and his wife, Mary Ann. Richard is an electrical engineer, and
 he and his wife are dedicated to serving others and making a difference 
 in the world.</p>
 </div>
+<div id="blurb" style="background-color:white">
+<img src="img/14.png" height="50%" width="100%"><img>
+</div>
 <div id="blurb">
 <h1>What is our mission?</h1>
 <p>	It is our mission at the Peugeot Center to serve those in 
@@ -78,9 +73,10 @@ those in developing communities but to also affect the students and
 professional workers carrying out the service by developing a desire to 
 serve and growing in spirituality.</p>
 </div>
+<div id="blurb" style="background-color:white">
+<img src="img/11.png" height="50%" width="100%"><img>
+</div>
 <?php
-
 $t->scrapeContent();
 $t->flush(); // Wipe the buffer and output the template with scraped data
-
 ?>
