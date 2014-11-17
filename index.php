@@ -87,30 +87,20 @@ $t->scrapeMeta();
 ?>
 <p id="blurb">Providing engineering service in developing communities.</p>
 <div id="slideshow_container">
-<h1>Who are we?</h1>
-<p>	The Richard S. and Mary Ann Brown Peugeot Center for Engineering 
-Service to Developing Communities, founded in 2014, is a center that 
-helps engineering students at Lipscomb University in Nashville, TN serve 
-others across the world using the knowledge and skills learned in the 
-classroom. Since 2004, the engineering students at Lipscomb have taken 
-more than 25 trips to four countries. The center is named after Richard 
-Peugeot and his wife, Mary Ann. Richard is an electrical engineer, and 
-he and his wife are dedicated to serving others and making a difference 
-in the world.</p>
+	<div id="slideshow" class="slideshow">
+		<a href="img/1.png"></a>
+		<a href="img/2.png"></a>
+		<a href="img/6.png"></a>
+		<a href="img/7.png"></a>
+	</div>
 </div>
 <hr>
 <div id="slideshow_container2">
 	<div id="slideshow2" class="slideshow">
-<h1>What is our mission?</h1>
-<p>	It is our mission at the Peugeot Center to serve those in 
-underdeveloped communities. We sponsor the engineering mission 
-trips taken by those attending Lipscomb University. Trips have been 
-taken to Honduras, the Dominican Republic, Guatemala, and the United 
-States to construct clean water systems, develop alternative energy 
-solutions, and build a total of four bridges. We hope not only to affect 
-those in developing communities but to also affect the students and 
-professional workers carrying out the service by developing a desire to 
-serve and growing in spirituality.</p>
+		<a href="img/5.png"></a>
+		<a href="img/3.png"></a>
+		<a href="img/4.png"></a>
+		<a href="img/8.png"></a>
 	</div>
 </div>
 <div id="relief"></div>
